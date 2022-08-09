@@ -5,7 +5,7 @@ const winners =[];
 // Play game
 // Play 5 rounds
 function game () {
-    for (let i =1; i <=5; i++) {
+    for (let i =1; i == 5; i++) {
       playRound(i);
     }
     document.querySelector('button').textContent = 'Play new game'
